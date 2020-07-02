@@ -28,8 +28,8 @@ class Topbar extends React.Component {
           </TextText>
           <Right>
             <But to="/Disposable">일회용품</But>
-            <But>Solution</But>
-            <But>Others</But>
+            <But to="Solution">Solution</But>
+            <But to="Others">Others</But>
           </Right>
         </Bar>
       </Container>

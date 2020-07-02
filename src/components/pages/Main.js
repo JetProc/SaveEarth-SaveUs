@@ -20,10 +20,10 @@ const Main = () => {
         <But to="/Disposable">
           <Icon src="../../resources/DisposableIcon.png"></Icon>
         </But>
-        <But>
+        <But to="/Solution">
           <Icon src="../../resources/SolutionIcon.png"></Icon>
         </But>
-        <But>
+        <But to="Others">
           <Icon src="../../resources/OthersIcon.png"></Icon>
         </But>
       </Lower>

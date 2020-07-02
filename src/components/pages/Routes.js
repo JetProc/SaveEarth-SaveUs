@@ -8,6 +8,8 @@ import Ocean from "./Ocean";
 import Electricity from "./Electricity";
 import Trash from "./Trash";
 import Disposable from "./Disposable";
+import Solution from "./Solution";
+import Others from "./Others";
 
 const Routes = () => {
   return (
@@ -18,6 +20,8 @@ const Routes = () => {
       <Route path="/Electricity" component={Electricity} />
       <Route path="/Trash" component={Trash} />
       <Route path="/Disposable" component={Disposable} />
+      <Route path="/Solution" component={Solution} />
+      <Route path="/Others" component={Others} />
     </Router>
   );
 };
