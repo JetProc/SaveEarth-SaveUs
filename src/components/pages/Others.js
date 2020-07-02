@@ -23,7 +23,7 @@ const Others = () => {
           <Logo src="../../resources/SaveInviron.png"></Logo>
         </Space>
         <Space href="http://www.greenkorea.org/" target="_blank">
-          <Logo src="../../resources/GreenTEam.png"></Logo>
+          <Logo src="../../resources/GreenTeam.png"></Logo>
         </Space>
         <Space href="http://me.go.kr/home/web/main.do" target="_blank">
           <Logo src="../../resources/EnvironFather.png"></Logo>
