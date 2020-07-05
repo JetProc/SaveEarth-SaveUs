@@ -28,8 +28,8 @@ class Topbar extends React.Component {
           </TextText>
           <Right>
             <But to="/Disposable">일회용품</But>
-            <But to="Solution">Solution</But>
-            <But to="Others">Others</But>
+            <But to="/Solution">Solution</But>
+            <But to="/Others">Others</But>
           </Right>
         </Bar>
       </Container>
@@ -43,6 +43,7 @@ const Container = styled.div`
   font-family: "Jua", sans-serif;
 `;
 const Bar = styled(Link)`
+  cursor: url("/ccc.cur"), auto;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -57,8 +58,8 @@ const Bar = styled(Link)`
   background: #d0d8e2;
   box-shadow: 4px 4px 10px #53565a, -4px -4px 10px #ffffff, inset 0px 0px 0px #53565a, inset 0px 0px 0px #ffffff;
   transition: all 0.35s ease-in;
-  cursor: pointer;
   &:hover {
+    cursor: url("/resources/ccc.cur"), auto;
     box-shadow: 0px 0px 0px #53565a, 0px 0px 0px #ffffff, inset 4px 4px 10px #53565a, inset -4px -4px 10px #ffffff;
   }
 `;
@@ -89,8 +90,8 @@ const But = styled(Link)`
   background: #d0d8e2;
   box-shadow: 4px 4px 10px #53565a, -4px -4px 10px #ffffff, inset 0px 0px 0px #53565a, inset 0px 0px 0px #ffffff;
   transition: all 0.15s linear;
-  cursor: pointer;
   &:hover {
+    cursor: url("/resources/ccc.cur"), auto;
     box-shadow: 0px 0px 0px #53565a, 0px 0px 0px #ffffff, inset 4px 4px 10px #53565a, inset -4px -4px 10px #ffffff;
   }
 `;

@@ -43,6 +43,7 @@ const Container = styled.div`
 `;
 
 const Space = styled.a`
+  cursor: url("/resources/ccc.cur"), auto;
   position: relative;
   width: 490px;
   height: 250px;
@@ -56,6 +57,7 @@ const Space = styled.a`
   transition: all 0.15s linear;
   cursor: pointer;
   &:hover {
+    cursor: url("/resources/ccc.cur"), auto;
     box-shadow: 0px 0px 0px #53565a, 0px 0px 0px #ffffff, inset 4px 4px 10px #53565a, inset -4px -4px 10px #ffffff;
   }
 `;

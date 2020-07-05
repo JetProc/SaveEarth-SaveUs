@@ -139,6 +139,8 @@ const But = styled.button`
   cursor: pointer;
   &:focus,
   :hover {
+    cursor: url("/resources/ccc.cur"), auto;
+
     box-shadow: 0px 0px 0px #53565a, 0px 0px 0px #ffffff, inset 4px 4px 10px #53565a, inset -4px -4px 10px #ffffff;
   }
 `;

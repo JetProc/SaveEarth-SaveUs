@@ -158,6 +158,7 @@ const ButtonContainer = styled.div`
 `;
 
 const Button = styled.div`
+  cursor: url("/resources/ccc.cur"), auto;
   background-color: red;
   width: 300px;
   height: 100px;
@@ -173,6 +174,7 @@ const Button = styled.div`
   transition: all 0.15s linear;
   cursor: pointer;
   &:hover {
+    cursor: url("/resources/ccc.cur"), auto;
     box-shadow: 0px 0px 0px #53565a, 0px 0px 0px #ffffff, inset 4px 4px 10px #53565a, inset -4px -4px 10px #ffffff;
   }
   ${({ asdf }) =>

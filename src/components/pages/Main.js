@@ -65,6 +65,7 @@ const Lower = styled.div`
   margin-bottom: 30px;
 `;
 const But = styled(Link)`
+  cursor: url("/resources/ccc.cur"), auto;
   position: relative;
   width: 380px;
   height: 220px;
@@ -78,6 +79,7 @@ const But = styled(Link)`
   transition: all 0.15s linear;
   cursor: pointer;
   &:hover {
+    cursor: url("/resources/ccc.cur"), auto;
     box-shadow: 0px 0px 0px #53565a, 0px 0px 0px #ffffff, inset 4px 4px 10px #53565a, inset -4px -4px 10px #ffffff;
   }
 `;
