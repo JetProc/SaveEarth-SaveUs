@@ -42,17 +42,6 @@ const Container = styled.div`
   margin: 30px 0px 10px 0px;
 `;
 
-const Upper = styled.div`
-  display: flex;
-  justify-content: space-around;
-  flex-direction: row;
-`;
-const Lower = styled.div`
-  display: flex;
-  justify-content: space-around;
-  flex-direction: row;
-`;
-
 const Space = styled.a`
   position: relative;
   width: 490px;
@@ -70,6 +59,17 @@ const Space = styled.a`
     box-shadow: 0px 0px 0px #53565a, 0px 0px 0px #ffffff, inset 4px 4px 10px #53565a, inset -4px -4px 10px #ffffff;
   }
 `;
+const Upper = styled.div`
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+`;
+const Lower = styled.div`
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+`;
+
 const Logo = styled.img`
   position: absolute;
   top: 0;

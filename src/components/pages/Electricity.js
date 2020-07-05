@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import styled from "styled-components";
 
 class Electricity extends React.Component {
@@ -60,11 +60,9 @@ class Electricity extends React.Component {
           <Map src={url}></Map>
           <NotMap>
             <Saving>
-              {" "}
               {/*세로 내용1*/}약<SavingValue>{this.state.saving}</SavingValue>의 전기 절약
             </Saving>
             <PhoneContainer>
-              {" "}
               {/*세로 내용2*/}
               <PhoneImage src={"/resources/smartphone.png"}></PhoneImage>
               <PhoneUsage>
@@ -81,7 +79,6 @@ class Electricity extends React.Component {
             </PhoneContainer>
             <PhoneInst>완충 20wh 기준</PhoneInst> {/*세로 내용3*/}
             <CarContainer>
-              {" "}
               {/*세로 내용4*/}
               <CarImage src={"/resources/electric car.png"}></CarImage>
               <CarUsage>
